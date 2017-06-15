@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3bffc99f-0320-4d6c-970b-82a148f84119</PackageIdentityName>
     <PackageIdentityPublisher>CN=Jasper</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-15T08:05:02.215</Modified>
+      <Modified>2017-06-15T08:21:05.546</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\bin\x86\Debug\sick1.0.exe">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\bin\x86\Debug\sick1.0.exe">
       <PackagePath>entrypoint\sick1.0.exe</PackagePath>
-      <Modified>2017-06-15T08:05:01.805</Modified>
+      <Modified>2017-06-15T08:21:03.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jasper\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -452,73 +452,73 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2017-03-21T08:02:37.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\backgroundlogin.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\backgroundlogin.png">
       <PackagePath>Assets\Images\backgroundlogin.png</PackagePath>
       <Modified>2017-05-17T11:45:48.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\icon.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\icon.png">
       <PackagePath>Assets\Images\icon.png</PackagePath>
       <Modified>2017-05-17T11:45:57.758</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\lockericon.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\lockericon.png">
       <PackagePath>Assets\Images\lockericon.png</PackagePath>
       <Modified>2017-03-22T13:23:54.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\SickelssName.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\SickelssName.png">
       <PackagePath>Assets\Images\SickelssName.png</PackagePath>
       <Modified>2017-03-22T19:34:12.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\sickless.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\sickless.png">
       <PackagePath>Assets\Images\sickless.png</PackagePath>
       <Modified>2017-03-22T13:12:12.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\usericon.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\usericon.png">
       <PackagePath>Assets\Images\usericon.png</PackagePath>
       <Modified>2017-05-17T11:47:09.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Assets\Images\icon.svg">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Assets\Images\icon.svg">
       <PackagePath>Assets\Images\icon.svg</PackagePath>
       <Modified>2017-03-22T13:24:22.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-05-17T11:35:13.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\bin\x86\Debug\sick1.0.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\bin\x86\Debug\sick1.0.xr.xml">
       <PackagePath>sick1.0.xr.xml</PackagePath>
       <Modified>2017-06-14T08:14:05.452</Modified>
     </AppxPackagedFile>
@@ -526,14 +526,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-05-16T08:39:04.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-14T08:20:30.000</Modified>
+      <Modified>2017-06-15T08:21:05.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jasper\documents\visual studio 2015\Projects\sick1.0\sick1.0\bin\x86\Debug\Core\sick1.0.exe">
+    <AppxPackagedFile Include="C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\bin\x86\Debug\Core\sick1.0.exe">
       <PackagePath>sick1.0.exe</PackagePath>
-      <Modified>2017-06-15T08:05:02.205</Modified>
+      <Modified>2017-06-15T08:21:05.535</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
