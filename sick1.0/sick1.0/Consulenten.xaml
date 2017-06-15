@@ -7,11 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" >
 
-    <Grid Background="White">
-        <Button Content="Toetsenbeheren" Name="btToetsen" HorizontalAlignment="Left" Margin="0,0,0,400" VerticalAlignment="Stretch" Height="108" Width="277" FontSize="36"/>
-        <Button x:Name="btnLessen" Content="Lessenbeheren" HorizontalAlignment="Left" Margin="0,0,0,150" VerticalAlignment="Center" Height="108" Width="277" FontSize="36"/>
-        <Button x:Name="btnLeerling" Content="Leerlingenbeheer" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Center" Height="108" Width="277" FontSize="36" Click="btnLeerling_Click"/>
-        <TextBlock x:Name="tbConsulenten" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="Consulenten" VerticalAlignment="Top" Height="85" Width="328" FontSize="48"/>
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <CompositeTransform Rotation="0.127"/>
+        </Grid.RenderTransform>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Images/backgroundlogin.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button Content="Toetsenbeheren" Name="btToetsen" HorizontalAlignment="Left" Margin="497,270,0,0" VerticalAlignment="Top" Height="108" Width="277" FontSize="36"/>
+        <Button x:Name="btnLessen" Content="Lessenbeheren" HorizontalAlignment="Left" Margin="1149,265,0,0" VerticalAlignment="Top" Height="108" Width="277" FontSize="36"/>
+        <TextBlock x:Name="tbConsulenten" HorizontalAlignment="Left" Margin="506,56,0,0" TextWrapping="Wrap" Text="Consulenten" VerticalAlignment="Top" Height="85" Width="328" FontSize="48"/>
 
     </Grid>
 </Page>

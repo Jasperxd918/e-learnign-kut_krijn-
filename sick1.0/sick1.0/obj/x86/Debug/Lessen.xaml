@@ -7,15 +7,55 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" >
 
-    <Grid Background="White">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="red" Offset="0.4"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <StackPanel>
-            <Button x:ConnectionId='2' x:Name="btnWiskunde" Content="Wiskunde" Grid.Row="1" Grid.Column="1" Height="105" Width="250"                           VerticalAlignment="Top"/>
-            <Button x:ConnectionId='3' x:Name="btnRekenen" Content="Rekenen" Grid.Row="1" Grid.Column="3" Height="105" Width="250"                          />
-            <Button x:ConnectionId='4' x:Name="btnEngels" Content="Engels" Grid.Row="4" Height="105" Width="250" Grid.Column="1"                        />
-            <Button x:ConnectionId='5' x:Name="btnNederlands" Content="Nederlands" Height="105" Width="250" Grid.Row="4" Grid.Column="3"                             />
-            <Button x:ConnectionId='6' x:Name="btscore" Content="Score" Grid.Column="2" Grid.Row="3" Height="140" Width="250"/>
+            <Button x:ConnectionId='21' x:Name="btnHome" Content="Home" Grid.Row="1" Grid.Column="1" Height="105" Width="250"                           VerticalAlignment="Top" />
+            <Button x:ConnectionId='22' x:Name="btnRekenen" Content="Rekenen" Grid.Row="1" Grid.Column="3" Height="105" Width="250"                           />
+            <Button x:ConnectionId='23' x:Name="btnEngels" Content="Engels" Grid.Row="4" Height="105" Width="250" Grid.Column="1"                          />
+            <Button x:ConnectionId='24' x:Name="btnNederlands" Content="Nederlands" Height="105" Width="250" Grid.Row="4" Grid.Column="3"                           />
+            <Button x:ConnectionId='25' x:Name="btnWiskunde" Content="Wiskunde" Grid.Row="1" Grid.Column="1" Height="105" Width="250"                           VerticalAlignment="Top" />
+            <Button x:ConnectionId='26' x:Name="btscore" Content="Score" Height="140" Width="250"                          />
         </StackPanel>
-        <Grid x:ConnectionId='1' Name="Nederlands" Background="Orange" Padding="0" Margin="250,0,0,0"/>
+        <Grid x:ConnectionId='1' Name="grids">
+            <Grid x:ConnectionId='2' Name="Home" Background="Pink" Padding="0" Margin="250,0,0,0" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="ingelogd als:" VerticalAlignment="Top" Width="89" Height="21"/>
+                <TextBlock x:ConnectionId='20' x:Name="tbNaam" HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="Naam" VerticalAlignment="Top"/>
+
+
+            </Grid>
+            <Grid x:ConnectionId='3' Name="Rekenen" Background="Orange" Padding="0" Margin="250,0,0,0"  >
+                <Button x:ConnectionId='8' x:Name="btnrek1" Content="oefening 1" HorizontalAlignment="Left" Height="45" Margin="10,100,0,0" VerticalAlignment="Top" Width="100"                      />
+                <Button x:ConnectionId='9' x:Name="btnrek2" Content="oefening 2" HorizontalAlignment="Left" Height="45" Margin="10,150,0,0" VerticalAlignment="Top" Width="100"/>
+                <Button x:ConnectionId='10' x:Name="btnrek3" Content="oefening 3" HorizontalAlignment="Left" Height="45" Margin="10,200,0,0" VerticalAlignment="Top" Width="100"/>
+                <TextBlock x:ConnectionId='11' x:Name="tbsom" HorizontalAlignment="Left" Margin="425,27,0,0" TextWrapping="Wrap" Text="10+10=?" VerticalAlignment="Top" Height="56" Width="212" FontSize="36" Visibility="Collapsed" />
+                <Grid x:ConnectionId='12' x:Name="radiobuttons">
+                <RadioButton x:ConnectionId='13' x:Name="antwoord1"  Content="20" HorizontalAlignment="Left" Margin="300,145,0,0" VerticalAlignment="Top" FontSize="36" Width="120" Visibility="Collapsed" />
+                <RadioButton x:ConnectionId='14' x:Name="antwoord2"  Content="20" HorizontalAlignment="Left" Margin="420,145,0,0" VerticalAlignment="Top" FontSize="36" Width="120" Visibility="Collapsed" />
+                <RadioButton x:ConnectionId='15' x:Name="antwoord3"  Content="20" HorizontalAlignment="Left" Margin="540,145,0,0" VerticalAlignment="Top" FontSize="36" Width="120" Visibility="Collapsed" />
+                <RadioButton x:ConnectionId='16' x:Name="antwoord4" Content="20" HorizontalAlignment="Left" Margin="660,145,0,0" VerticalAlignment="Top" FontSize="36" Width="120" Visibility="Collapsed" />
+                <Button x:ConnectionId='17' x:Name="btnvolgende" Content="volgende >" HorizontalAlignment="Left" Margin="660,263,0,0" VerticalAlignment="Top"                           Visibility="Collapsed"/>
+                    <TextBlock x:ConnectionId='18' x:Name="tbaantalvraag" HorizontalAlignment="Left" Margin="21,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Visibility="Collapsed" />
+                    <TextBlock x:ConnectionId='19' x:Name="tbaantalvraag1" HorizontalAlignment="Left" Margin="34,10,0,0" TextWrapping="Wrap" Text="/10" VerticalAlignment="Top" Visibility="Collapsed" />
+                </Grid>
+            </Grid>
+            <Grid x:ConnectionId='4' Name="Engels" Background="PaleGoldenrod" Padding="0" Margin="250,0,0,0" Visibility="Collapsed">
+            </Grid>
+            <Grid x:ConnectionId='5' Name="Nederlands" Background="Orchid" Padding="0" Margin="250,0,0,0" Visibility="Collapsed" >
+            </Grid>
+            <Grid x:ConnectionId='6' Name="Wiskunde" Background="Beige" Padding="0" Margin="250,0,0,0" Visibility="Collapsed">
+            </Grid>
+            <Grid x:ConnectionId='7' Name="Score" Background="Yellow" Padding="0" Margin="250,0,0,0" Visibility="Collapsed">
+            </Grid>
+        </Grid>
+
+
+
     </Grid>
 </Page>
 

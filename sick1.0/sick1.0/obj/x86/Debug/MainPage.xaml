@@ -6,9 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Height="auto" Width="Auto">
-    <Grid Background="White">
-        <PasswordBox x:ConnectionId='1' x:Name="passwordBox" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="440" Grid.Column="1" Grid.Row="3" FontSize="48"                             />
-        <TextBox x:ConnectionId='2' x:Name="tbUsername" HorizontalAlignment="Center" Margin="0,0,0,200" TextWrapping="Wrap" VerticalAlignment="Center" Width="436"                                   Grid.Column="1" Grid.Row="1" FontFamily="Kristen ITC" FontSize="48"                             />
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="Cyan" Offset="0.5"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:ConnectionId='1' x:Name="tbUsername" HorizontalAlignment="Center" Margin="0,0,0,200" TextWrapping="Wrap" VerticalAlignment="Center" Width="436"                                   Grid.Column="1" Grid.Row="1" FontFamily="Kristen ITC" FontSize="48"                             />
+        <PasswordBox x:ConnectionId='2' x:Name="passwordBox" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="440" Grid.Column="1" Grid.Row="3" FontSize="48"                             />
         <Image x:ConnectionId='3' x:Name="iLogo" Source="Assets/Images/sickless.png"  Height="177" Margin="0,0,0,600" VerticalAlignment="Center" Grid.Column="1" HorizontalAlignment="Center"/>
         <Button x:ConnectionId='4' x:Name="btLogin" Content="Login" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Bottom" Width="436" Grid.Column="1"                       Grid.Row="4" Height="92"/>
         <Image x:ConnectionId='5' x:Name="ilocker" Source="Assets/Images/icon.png" Grid.Column="1" HorizontalAlignment="Center" Height="82" Margin="31,0,650,0" VerticalAlignment="Center" Width="83" Grid.Row="3"/>

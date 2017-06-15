@@ -26,10 +26,5 @@ namespace sick1._0
         {
             this.InitializeComponent();
         }
-
-        private void btnLeerling_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(CMS));
-        }
     }
 }

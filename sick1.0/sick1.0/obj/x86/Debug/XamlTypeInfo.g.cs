@@ -132,21 +132,19 @@ namespace sick1._0.sick1_0_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "sick1._0.CMS";
+            _typeNameTable = new string[5];
+            _typeNameTable[0] = "sick1._0.Consulenten";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "sick1._0.Consulenten";
-            _typeNameTable[4] = "sick1._0.Lessen";
-            _typeNameTable[5] = "sick1._0.MainPage";
+            _typeNameTable[3] = "sick1._0.Lessen";
+            _typeNameTable[4] = "sick1._0.MainPage";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::sick1._0.CMS);
+            _typeTable = new global::System.Type[5];
+            _typeTable[0] = typeof(global::sick1._0.Consulenten);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::sick1._0.Consulenten);
-            _typeTable[4] = typeof(global::sick1._0.Lessen);
-            _typeTable[5] = typeof(global::sick1._0.MainPage);
+            _typeTable[3] = typeof(global::sick1._0.Lessen);
+            _typeTable[4] = typeof(global::sick1._0.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,10 +179,8 @@ namespace sick1._0.sick1_0_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_CMS() { return new global::sick1._0.CMS(); }
-        private object Activate_3_Consulenten() { return new global::sick1._0.Consulenten(); }
-        private object Activate_4_Lessen() { return new global::sick1._0.Lessen(); }
-        private object Activate_5_MainPage() { return new global::sick1._0.MainPage(); }
+        private object Activate_0_Consulenten() { return new global::sick1._0.Consulenten(); }
+        private object Activate_4_MainPage() { return new global::sick1._0.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -196,9 +192,9 @@ namespace sick1._0.sick1_0_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  sick1._0.CMS
+            case 0:   //  sick1._0.Consulenten
                 userType = new global::sick1._0.sick1_0_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_CMS;
+                userType.Activator = Activate_0_Consulenten;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -211,23 +207,15 @@ namespace sick1._0.sick1_0_XamlTypeInfo
                 xamlType = new global::sick1._0.sick1_0_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  sick1._0.Consulenten
+            case 3:   //  sick1._0.Lessen
                 userType = new global::sick1._0.sick1_0_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_Consulenten;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  sick1._0.Lessen
+            case 4:   //  sick1._0.MainPage
                 userType = new global::sick1._0.sick1_0_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Lessen;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  sick1._0.MainPage
-                userType = new global::sick1._0.sick1_0_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
