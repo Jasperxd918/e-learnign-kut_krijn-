@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="sick1._0.Consulenten"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:sick1._0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" >
+
+    <Grid Background="White">
+        <Button x:ConnectionId='1' Content="Toetsenbeheren" Name="btToetsen" HorizontalAlignment="Left" Margin="0,0,0,400" VerticalAlignment="Stretch" Height="108" Width="277" FontSize="36"/>
+        <Button x:ConnectionId='2' x:Name="btnLessen" Content="Lessenbeheren" HorizontalAlignment="Left" Margin="0,0,0,150" VerticalAlignment="Center" Height="108" Width="277" FontSize="36"/>
+        <Button x:ConnectionId='3' x:Name="btnLeerling" Content="Leerlingenbeheer" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Center" Height="108" Width="277" FontSize="36"                          />
+        <TextBlock x:ConnectionId='4' x:Name="tbConsulenten" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="Consulenten" VerticalAlignment="Top" Height="85" Width="328" FontSize="48"/>
+
+    </Grid>
+</Page>
+
