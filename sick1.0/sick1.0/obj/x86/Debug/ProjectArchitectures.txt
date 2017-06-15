@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\Jasper\Documents\GitHub\e-learnign\sick1.0\sick1.0\sick1.0.csproj;x86
+=======
+C:\Users\krijn\Documents\Visual Studio 2017\Projects\sick1.0\sick1.0\sick1.0.csproj;x86
+>>>>>>> bbb52f9f118fd7ef4693d0ae2a885331c5df9b03

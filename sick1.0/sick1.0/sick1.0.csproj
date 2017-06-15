@@ -95,9 +95,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CMS.xaml.cs">
-      <DependentUpon>CMS.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Consulenten.xaml.cs">
       <DependentUpon>Consulenten.xaml</DependentUpon>
     </Compile>
@@ -167,10 +164,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CMS.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Consulenten.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

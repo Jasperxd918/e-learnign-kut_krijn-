@@ -23,6 +23,7 @@ namespace sick1._0
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        
         public MainPage()
         {
             this.InitializeComponent();
@@ -31,15 +32,9 @@ namespace sick1._0
 
         private async void btLogin_Click(object sender, RoutedEventArgs e)
         {
-            if(tbUsername.Text=="" && passwordBox.Password=="")
-            {
-                btLogin.IsEnabled = false;
-            }
-            else
-            {
-                btLogin.IsEnabled = true;
-            }
-            var ss = await WebRequest.Request(new Uri("http://localhost/javascript/e-learning.php"), new KeyValuePair<string, string>("login", "true"), new KeyValuePair<string, string>("username", tbUsername.Text), new KeyValuePair<string, string>("password", passwordBox.Password));
+            var ss = await WebRequest.Request(new Uri(
+                
+                "http://localhost/elearning/e-learning.php"), new KeyValuePair<string, string>("login", "true"), new KeyValuePair<string, string>("username", tbUsername.Text), new KeyValuePair<string, string>("password", passwordBox.Password));
             if (ss == null)
             {
                 MessageBox.Show("Onjuiste inlog gegevens");
@@ -50,14 +45,15 @@ namespace sick1._0
                 string sNaam = ss[0];
                 string sConsulent = ss[1];
                 MainPage currentFrame = new MainPage();
-                Lessen les = new Lessen();
+
                 if (sConsulent == "1")
                 {
-                    this.Frame.Navigate(typeof(Consulenten));
+                    this.Content = new Consulenten();
                 }
                 else
                 {
-                    this.Frame.Navigate(typeof(Lessen));
+                    
+                    this.Content = new Lessen(sNaam);
                 }
             }
         }
